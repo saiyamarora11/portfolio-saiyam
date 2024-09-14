@@ -1,18 +1,3 @@
-# Montoya Website Landing Page (NEXT.js 14, Framer Motion)
-
-This project features a sophisticated and visually appealing landing page for the Montoya website, utilizing modern web development technologies to create a seamless user experience. The design is clean, responsive, and enhanced with smooth animations.
-
-## Technologies Used:
-
-- **Next.js 14: Ensures efficient server-side rendering and optimized performance**
-- **Tailwind CSS & DaisyUI: Provide flexible and customizable styling options**
-- **Framer Motion: Integrates fluid and engaging animations**
-- **TypeScript: Adds type safety and enhances the developer experience**
-
-## Vercel Link [here](https://next-ts-montoya.vercel.app)
-
-## Demo Link [here](https://drive.google.com/file/d/1bZspzB5J7lJ7U091R8HvUQst_qNPESYW/view?usp=drive_link)
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
