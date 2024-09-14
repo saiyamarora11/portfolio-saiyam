@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--font-six-caps: "__Six_Caps_30fde0", "__Six_Caps_Fallback_30fde0";
+	--font-poppins: "__Poppins_a6f35b", "__Poppins_Fallback_a6f35b";
+}
+
+html {
+	font-family: var(--font-poppins);
+	position: relative;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
+}
+
+body {
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(
+			to bottom,
+			transparent,
+			rgb(var(--background-end-rgb))
+		)
+		rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+/* container-primary */
+.container-primary {
+	@apply flex min-h-screen flex-col items-center px-6 sm:px-14;
+}
+
+/* cursor */
+.magic-cursor-default {
+	@apply !h-10 !w-10 border-2 border-gray-400 bg-transparent opacity-100;
+}
+.magic-cursor-expanded {
+	@apply flex !h-28 !w-28 items-center justify-center border border-transparent bg-white bg-opacity-10 text-sm font-semibold backdrop-blur-lg;
+}
+
+/* header */
+.header {
+	@apply sticky top-0 z-[99] flex h-14 w-full items-center justify-between bg-black pt-6 text-white;
+}
+
+/* hero-section */
+.hero-section-container {
+	@apply flex h-[calc(100vh-8rem)] w-full flex-col items-center justify-center bg-black;
+}
+.animation-letters-style {
+	@apply font-sixCaps text-responsive-sm text-white sm:text-responsive-md md:text-responsive-lg lg:text-responsive-xl;
+}
+.hero-footer {
+	@apply absolute -bottom-10 flex w-full items-center justify-between text-sm;
+}
+
+/* cards-croll-section */
+.card-container {
+	@apply sticky h-[80vh] w-[90vw] cursor-pointer overflow-hidden rounded-xl bg-inherit;
+}
+.overlay-footer {
+	@apply absolute bottom-8 flex w-full items-baseline justify-between px-14 text-white;
+}
+.overlay-title-style {
+	@apply w-full text-center font-sixCaps text-[4rem] font-bold md:text-[5rem] lg:text-[7rem] xl:text-[9rem];
+}
+.tag-overlay {
+	@apply rounded-full bg-white bg-opacity-40 px-4 py-1 text-sm text-white;
+}
+
+/* features-section */
+.feature-section-container {
+	@apply flex flex-col items-center justify-center bg-black text-center;
+}
+
+/* skills-section */
+.skills-list {
+	@apply flex flex-col items-center justify-center gap-y-3 text-center;
+}
+.skill-text-style {
+	@apply flex h-full items-center justify-center font-sixCaps text-[4rem] font-medium leading-none md:text-[6rem] lg:text-[7rem];
+}
+
+/* studio-section */
+.studio-section {
+	@apply mt-40 flex h-screen flex-col items-center justify-center bg-black text-center;
+}
+
+.footer-style {
+	@apply flex w-full items-center justify-between bg-black p-4 text-white;
+}
