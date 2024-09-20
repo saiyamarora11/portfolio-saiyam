@@ -22,10 +22,6 @@ const LenisScrollProvider = ({
 			requestAnimationFrame(raf);
 		};
 		requestAnimationFrame(raf);
-
-		return () => {
-			lenisRef.current?.destroy();
-		};
 	}, []);
 
 	useEffect(() => {
