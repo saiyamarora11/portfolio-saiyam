@@ -8,6 +8,7 @@ import OverlayFooter from "./OverlayFooter";
 import SkillsCoverSection from "./SkillsCoverSection";
 import StudioBanner from "./StudioBanner";
 import FooterComponent from "./FooterComponent";
+import LenisScrollProvider from "./LenisScrollProvider";
 
 export {
 	Header,
@@ -20,4 +21,5 @@ export {
 	SkillsCoverSection,
 	StudioBanner,
 	FooterComponent,
+	LenisScrollProvider,
 };

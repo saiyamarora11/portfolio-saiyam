@@ -15,19 +15,19 @@ const Header: React.FC = () => {
 				<button
 					onMouseEnter={() => setIsCursorHidden(true)}
 					onMouseLeave={() => setIsCursorHidden(false)}
-					className="logo-button relative !h-14 !w-14"
+					className="relative"
 					style={{ position: "relative" }}>
-					<Image
+					{/* <Image
 						src={Logo}
 						alt="Logo"
 						fill
 						sizes="(max-width: 600px) 100vw, 50vw"
 						style={{ objectFit: "contain" }}
-					/>
+					/> */}
+					SAIYAM ARORA
 				</button>
 			</div>
 			<div className="flex items-center space-x-8 text-sm">
-				<span className="hidden md:block">Menu</span>
 				<MagneticButton>
 					<button>
 						<Bars2Icon className="size-6 text-white" />

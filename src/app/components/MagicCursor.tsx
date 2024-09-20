@@ -48,7 +48,7 @@ const MagicCursor: React.FC = () => {
 					{cursorType
 						? cursorType === "card"
 							? "[ OPEN ]"
-							: "[ About Us ]"
+							: "[ Contact ]"
 						: ""}
 				</motion.div>
 			)}

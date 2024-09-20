@@ -78,7 +78,7 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
 		return (
 			<div
 				ref={containerRef}
-				className="card-container"
+				className="card-container border border-white"
 				style={{
 					position: "sticky",
 					top: `${vertMargin}vh`,

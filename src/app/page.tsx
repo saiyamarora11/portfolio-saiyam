@@ -8,22 +8,21 @@ import {
 	FeatureSection,
 	SkillsCoverSection,
 	StudioBanner,
-	FooterComponent,
+	LenisScrollProvider,
 } from "@/app/components";
-import useLenis from "@/app/hooks/useLenis";
 
 export default function Home() {
-	useLenis();
 	return (
-		<main className="container-primary">
-			<MagicCursor />
-			<Header />
-			<HeroSection />
-			<CardScrollSection />
-			<FeatureSection />
-			<SkillsCoverSection />
-			<StudioBanner />
-			<FooterComponent />
-		</main>
+		<LenisScrollProvider>
+			<main className="container-primary">
+				<MagicCursor />
+				<Header />
+				<HeroSection />
+				<CardScrollSection />
+				{/* <FeatureSection /> */}
+				<SkillsCoverSection />
+				<StudioBanner />
+			</main>
+		</LenisScrollProvider>
 	);
 }

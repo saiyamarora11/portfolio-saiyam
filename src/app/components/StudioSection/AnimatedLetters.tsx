@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 
-const letters = "OUR STUDIO".split("");
+const letters = "REACH OUT".split("");
 
 const AnimatedLetters = () => {
 	return (
@@ -9,7 +9,7 @@ const AnimatedLetters = () => {
 			{letters.map((letter, index) => (
 				<motion.div
 					key={index}
-					className={`animation-letters-style ${letter === " " ? "mx-2" : ""}`}
+					className={`animation-letters-style ${letter === " " ? "mx-5" : ""}`}
 					whileHover={{
 						scaleY: 1.3,
 						originY: 0.2,

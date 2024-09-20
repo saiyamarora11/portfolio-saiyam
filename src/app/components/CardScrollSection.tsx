@@ -11,11 +11,10 @@ const CardScrollSection = () => {
 	}, [setFirstCardRef]);
 
 	const images = [
-		{ icon: "01hero.jpg", title: "WHITE LINERS" },
-		{ icon: "02hero.jpg", title: "GREEN AUDIO" },
-		{ icon: "03hero.jpg", title: "NANOTECH" },
-		{ icon: "04hero.jpg", title: "COOL DUDE" },
-		{ icon: "05hero.jpg", title: "SPHERE DIGITAL" },
+		{ icon: "", title: "PROJECT 1" },
+		{ icon: "", title: "PROJECT 2" },
+		{ icon: "", title: "PROJECT 3" },
+		{ icon: "", title: "PROJECT 4" },
 	];
 
 	return (

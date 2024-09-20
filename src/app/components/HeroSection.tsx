@@ -17,21 +17,20 @@ const HeroSection = () => {
 	return (
 		<div className="hero-section-container relative">
 			<div className="p-10">
-				<AnimatedLetters />
+				{/* <AnimatedLetters /> */}
 				<HeroSectionDescription />
 			</div>
 			<div className="hero-footer">
 				<div
 					onClick={scrollToCard}
-					className="z-[100] flex cursor-pointer items-center gap-x-6">
-					<button>Scroll to Explore</button>
+					className="z-[100] flex cursor-pointer items-center gap-x-4">
+					<button>Scroll to projects</button>
 					<MagneticButton>
 						<button>
-							<ChevronDownIcon className="size-5 text-white" />
+							<ChevronDownIcon className="size-4 text-white" />
 						</button>
 					</MagneticButton>
 				</div>
-				<p>Featured Projects</p>
 			</div>
 		</div>
 	);
