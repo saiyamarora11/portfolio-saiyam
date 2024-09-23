@@ -16,11 +16,11 @@ export default function Home() {
 		<LenisScrollProvider>
 			<main className="container-primary">
 				<MagicCursor />
-				<Header />
+				{/* <Header /> */}
 				<HeroSection />
 				<CardScrollSection />
 				{/* <FeatureSection /> */}
-				<SkillsCoverSection />
+				{/* <SkillsCoverSection /> */}
 				<StudioBanner />
 			</main>
 		</LenisScrollProvider>

@@ -3,7 +3,7 @@ import "./globals.css";
 import { sixCaps, poppins } from "./font";
 
 export const metadata: Metadata = {
-	title: "Montaya",
+	title: "Saiyam Arora",
 };
 
 export default function RootLayout({
